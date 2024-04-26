@@ -10,11 +10,11 @@ import { AuthModule } from './auth/auth.module';
   imports: [
     TypeOrmModule.forRoot({
       type: 'mysql',
-      host: 'roundhouse.proxy.rlwy.net',
+      host: '',
       port: 14886,
       username: 'root',
-      password: 'ZxyNIqwLNKZRGHGfTtIWxKxGDeCHxdoZ',
-      database: 'railway',
+      password: '',
+      database: ',
       entities: [],
       synchronize: true,
     }),
